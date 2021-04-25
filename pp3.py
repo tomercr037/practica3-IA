@@ -2,8 +2,8 @@ import pandas as pd
 df=pd.DataFrame()
 n=int(input("Cantidad de veces a ingresar los datos: "))
 
-for i in range(n):
-	i= i+1
+for d in range(n):
+	d= d+1
 	print ("Datos del Alumno \t")
 	nombre= str(input("Nombre: "))	
 	apellidos=str(input("Apellidos: "))
